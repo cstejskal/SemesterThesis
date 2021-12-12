@@ -1,0 +1,8 @@
+function x = getRand(hist,x_space)
+% get a random value from the 1D distribution in hist supported on x_space
+
+
+
+
+end
+
