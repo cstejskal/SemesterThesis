@@ -82,9 +82,6 @@ switch system_dynamics_type
     case 'Dynamics'
         A = [0.9 -0.1; -0.1 0.8];
         B = [1; 0.5];
-     case 'Identity'
-        A = eye(2);
-        B = eye(2);
 end
 tau = 0.1;
 eps = 1;
